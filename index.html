@@ -250,11 +250,13 @@
         <div class="grid grid--launch">
           <article class="guide-card">
             <div class="guide-card__badge">步骤 1</div>
-            <h3>选择低成本托管</h3>
-            <p>将本站部署在对象存储、云虚拟主机或 GitHub Pages 等静态托管平台，配合 CDN 每月成本最低可控制在 ¥3 以内。</p>
+            <h3>GitHub Pages 免费托管</h3>
+            <p>利用 GitHub Pages 将官网零成本上线，静态资源全球加速，无需服务器维护即可长期稳定访问。</p>
             <ul>
-              <li>腾讯云/阿里云对象存储按量付费，月访问量小于 1GB 时费用低于 ¥3</li>
-              <li>若零预算，可使用 GitHub Pages、Vercel 等免费静态托管</li>
+              <li>在 GitHub 创建公开仓库并推送本项目所有文件</li>
+              <li>打开仓库 <strong>Settings &gt; Pages</strong>，选择 <em>Deploy from a branch</em> 并勾选 <code>main</code> 分支的 <code>/root</code></li>
+              <li>保存后等待几分钟，系统会生成形如 <code>https://用户名.github.io/仓库名</code> 的访问地址</li>
+              <li>若需国内加速，可搭配 Cloudflare CDN 或镜像到国内对象存储（成本约 ¥3/月）</li>
             </ul>
           </article>
           <article class="guide-card">
@@ -262,6 +264,7 @@
             <h3>绑定易记域名</h3>
             <p>注册一个短且好记的 .com 或 .cn 域名，并在 DNS 中配置 CNAME/ A 记录指向托管平台，保障客户输入网址即可访问。</p>
             <ul>
+              <li>GitHub Pages 用户将域名 CNAME 指向 <code>用户名.github.io</code>，仓库中新增 <code>CNAME</code> 文件</li>
               <li>首年域名费用可选择优惠后 ¥30-50 的后缀</li>
               <li>在托管平台启用 HTTPS 证书，确保浏览器安全访问</li>
             </ul>
@@ -271,8 +274,9 @@
             <h3>提交到搜索引擎</h3>
             <p>完成部署后将站点地图与首页链接提交至百度搜索资源平台、360 搜索、必应站长平台，加速收录与展示。</p>
             <ul>
-              <li>在站点根目录添加 sitemap.xml 方便搜索引擎抓取</li>
+              <li>在站点根目录添加 sitemap.xml 与 robots.txt 方便搜索引擎抓取</li>
               <li>定期更新案例与资讯，提升搜索排名与曝光</li>
+              <li>若使用 GitHub Pages，可在仓库设置中启用 "Enforce HTTPS" 并提交生成的网址</li>
             </ul>
           </article>
         </div>
