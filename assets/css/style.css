@@ -378,6 +378,59 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.grid--launch {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: start;
+}
+
+.guide-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow-card);
+  display: grid;
+  gap: 16px;
+}
+
+.guide-card__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.guide-card ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--color-muted);
+}
+
+.launch-tips {
+  margin-top: 40px;
+  background: rgba(14, 122, 191, 0.08);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border: 1px solid rgba(14, 122, 191, 0.15);
+  box-shadow: var(--shadow-soft);
+}
+
+.launch-tips h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.launch-tips p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
 .pricing-card {
   background: #fff;
   border-radius: var(--radius-lg);
