@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="260" viewBox="0 0 220 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="研领科技标志">
+  <defs>
+    <linearGradient id="wing" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18B5C7" />
+      <stop offset="100%" stop-color="#6DD5E7" />
+    </linearGradient>
+  </defs>
+  <path fill="#0E6DB9" d="M117 42c-44 0-74 26-74 74s29 79 74 79c45 0 74-31 74-79V42H117z"/>
+  <path fill="#0B5AA0" d="M33 118c0-56 38-96 98-96h60v124c0 60-38 102-98 102S33 178 33 118z" opacity=".8"/>
+  <path fill="#fff" d="M116 52c-23 0-38 16-38 39 0 27 17 46 43 46 25 0 42-18 42-46V52h-47z" opacity=".9"/>
+  <path fill="#18B5C7" d="M143 48c27 18 51 26 66 25-18 18-31 52-33 86l-39-2c6-51 5-81 6-109z" opacity=".9"/>
+  <path fill="#0E6DB9" d="M22 71c35-14 61-12 70 16-24 8-45 29-61 61-14-33-14-57-9-77z"/>
+  <circle fill="#0B5AA0" cx="77" cy="64" r="18"/>
+  <path fill="url(#wing)" d="M181 64c10 50-6 111-44 158l46-10c24-51 32-103 22-148l-24 0z"/>
+  <text x="110" y="230" font-size="42" font-family="'Microsoft YaHei', 'Noto Sans SC', sans-serif" text-anchor="middle" fill="#333">
+    研领科技
+  </text>
+</svg>
