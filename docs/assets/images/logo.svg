@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">研领科技标志</title>
+  <desc id="desc">由抽象的飞翔羽翼和字母Y组成的蓝绿色图形。</desc>
+  <defs>
+    <linearGradient id="wing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7abf" />
+      <stop offset="100%" stop-color="#3cc3cf" />
+    </linearGradient>
+  </defs>
+  <path d="M28 24c0-6.627 5.373-12 12-12h24c6.627 0 12 5.373 12 12v16h16c8.837 0 16 7.163 16 16 0 26.51-21.49 48-48 48S12 82.51 12 56V36c0-6.627 5.373-12 12-12h4z" fill="url(#wing)" />
+  <path d="M88 12c4.418 0 8 3.582 8 8v52c0 17.673-14.327 32-32 32-8.837 0-16-7.163-16-16V36h16v36c0 4.418 3.582 8 8 8s8-3.582 8-8V12h8z" fill="#0e7abf" />
+  <path d="M40 12h16v24c0 4.418-3.582 8-8 8s-8-3.582-8-8V12z" fill="#0b4d76" opacity="0.6" />
+</svg>
