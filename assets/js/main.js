@@ -34,6 +34,7 @@ toggleBackToTop();
 window.addEventListener('scroll', toggleBackToTop);
 
 const contactForm = document.querySelector('.contact__form');
+const faqItems = document.querySelectorAll('.faq__item');
 
 if (contactForm) {
   contactForm.addEventListener('submit', (event) => {
@@ -57,5 +58,29 @@ if (contactForm) {
     setTimeout(() => {
       message.classList.add('visible');
     }, 10);
+  });
+}
+
+if (faqItems.length) {
+  faqItems.forEach((item) => {
+    const button = item.querySelector('button');
+    const content = item.querySelector('.faq__content');
+
+    if (!button || !content) return;
+
+    button.addEventListener('click', () => {
+      const isOpen = item.classList.toggle('open');
+      button.setAttribute('aria-expanded', String(isOpen));
+
+      faqItems.forEach((otherItem) => {
+        if (otherItem !== item) {
+          otherItem.classList.remove('open');
+          const otherButton = otherItem.querySelector('button');
+          if (otherButton) {
+            otherButton.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+    });
   });
 }
